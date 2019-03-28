@@ -1,0 +1,63 @@
+2019/03/28 00:38:43 [notice] 11#11: using the "epoll" event method
+2019/03/28 00:38:43 [notice] 11#11: nginx/1.10.3 (Ubuntu)
+2019/03/28 00:38:43 [notice] 11#11: OS: Linux 4.15.0-34-generic
+2019/03/28 00:38:43 [notice] 11#11: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/03/28 00:38:43 [notice] 11#11: start worker processes
+2019/03/28 00:38:43 [notice] 11#11: start worker process 13
+2019/03/28 00:38:43 [notice] 11#11: start worker process 14
+2019/03/28 00:38:43 [notice] 11#11: start worker process 15
+2019/03/28 00:38:43 [notice] 11#11: start worker process 16
+2019/03/28 00:38:43 [notice] 11#11: start worker process 17
+2019/03/28 00:38:43 [notice] 11#11: start worker process 18
+2019/03/28 00:38:43 [notice] 11#11: start worker process 19
+2019/03/28 00:38:43 [notice] 11#11: start worker process 20
+2019/03/28 00:38:50 [error] 13#13: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:38:50 [error] 13#13: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:42:21 [error] 14#14: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:42:21 [error] 14#14: *3 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:45:00 [error] 14#14: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:45:00 [error] 14#14: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:46:53 [error] 14#14: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:47:48 [error] 14#14: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:49:25 [error] 14#14: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:53:47 [notice] 10#10: using the "epoll" event method
+2019/03/28 00:53:47 [notice] 10#10: nginx/1.10.3 (Ubuntu)
+2019/03/28 00:53:47 [notice] 10#10: OS: Linux 4.15.0-34-generic
+2019/03/28 00:53:47 [notice] 10#10: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/03/28 00:53:47 [notice] 10#10: start worker processes
+2019/03/28 00:53:47 [notice] 10#10: start worker process 12
+2019/03/28 00:53:47 [notice] 10#10: start worker process 13
+2019/03/28 00:53:47 [notice] 10#10: start worker process 14
+2019/03/28 00:53:47 [notice] 10#10: start worker process 15
+2019/03/28 00:53:47 [notice] 10#10: start worker process 16
+2019/03/28 00:53:47 [notice] 10#10: start worker process 17
+2019/03/28 00:53:47 [notice] 10#10: start worker process 18
+2019/03/28 00:53:47 [notice] 10#10: start worker process 19
+2019/03/28 00:53:54 [error] 12#12: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 00:58:15 [notice] 10#10: using the "epoll" event method
+2019/03/28 00:58:15 [notice] 10#10: nginx/1.10.3 (Ubuntu)
+2019/03/28 00:58:15 [notice] 10#10: OS: Linux 4.15.0-34-generic
+2019/03/28 00:58:15 [notice] 10#10: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/03/28 00:58:15 [notice] 10#10: start worker processes
+2019/03/28 00:58:15 [notice] 10#10: start worker process 12
+2019/03/28 00:58:15 [notice] 10#10: start worker process 13
+2019/03/28 00:58:15 [notice] 10#10: start worker process 14
+2019/03/28 00:58:15 [notice] 10#10: start worker process 15
+2019/03/28 00:58:15 [notice] 10#10: start worker process 16
+2019/03/28 00:58:15 [notice] 10#10: start worker process 17
+2019/03/28 00:58:15 [notice] 10#10: start worker process 18
+2019/03/28 00:58:15 [notice] 10#10: start worker process 19
+2019/03/28 00:58:18 [error] 12#12: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2019/03/28 01:00:01 [notice] 10#10: using the "epoll" event method
+2019/03/28 01:00:01 [notice] 10#10: nginx/1.10.3 (Ubuntu)
+2019/03/28 01:00:01 [notice] 10#10: OS: Linux 4.15.0-34-generic
+2019/03/28 01:00:01 [notice] 10#10: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/03/28 01:00:01 [notice] 10#10: start worker processes
+2019/03/28 01:00:01 [notice] 10#10: start worker process 12
+2019/03/28 01:00:01 [notice] 10#10: start worker process 13
+2019/03/28 01:00:01 [notice] 10#10: start worker process 14
+2019/03/28 01:00:01 [notice] 10#10: start worker process 15
+2019/03/28 01:00:01 [notice] 10#10: start worker process 16
+2019/03/28 01:00:01 [notice] 10#10: start worker process 17
+2019/03/28 01:00:01 [notice] 10#10: start worker process 18
+2019/03/28 01:00:01 [notice] 10#10: start worker process 19
