@@ -1,13 +1,15 @@
 FROM ubuntu:16.04
 
+RUN apt-get update --fix-missing
+RUN apt-get install -y software-properties-common
+RUN LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
 RUN apt-get update
-
-RUN apt-get install -y nginx php7.0-fpm supervisor && \
+RUN apt-get install -y nginx php7.0-fpm php7.0-mysql supervisor && \
     rm -rf /var/lib/apt/lists/*
 
 #Define the ENV variable
 ENV nginx_vhost /etc/nginx/sites-available/default
-ENV php_conf /etc/php
+ENV php_conf /etc/px`p
 ENV nginx_conf /etc/nginx/nginx.conf
 ENV supervisor_conf /etc/supervisor/supervisord.conf
 

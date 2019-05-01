@@ -1,1 +1,1 @@
-echo '<?php phpinfo(); ?>' > /webroot/info.php
+<?php phpinfo();
